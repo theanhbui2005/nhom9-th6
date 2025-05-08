@@ -42,6 +42,12 @@
 		component: './Destination',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/travel-plan',
+		name: 'TravelPlan',
+		component: './travel-plan',
+		icon: 'CalendarOutlined',
+	},
 
 	// DANH MUC HE THONG
 	// {
