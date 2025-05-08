@@ -1,0 +1,42 @@
+@import '~antd/es/style/themes/default.less';
+
+.container {
+  margin-bottom: 24px;
+
+  .tabs {
+    margin-top: 16px;
+  }
+
+  .emptyCard {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+}
+
+// Responsive styles
+@media (max-width: @screen-md) {
+  .container {
+    .tabs {
+      :global {
+        .ant-tabs-nav {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .container {
+    .tabs {
+      :global {
+        .ant-tabs-tab {
+          padding: 8px;
+        }
+      }
+    }
+  }
+} 
