@@ -36,12 +36,26 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+
 	{
 		path: '/admin',
 		name: 'Admin',
 		component: './Admin',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/quan-ly-diem-den',
+		name: 'Quản lý điểm đến',
+		component: './QuanLyDiemDen',
+		icon: 'EnvironmentOutlined',
+	},
+	{
+		path: '/thong-ke',
+		name: 'Thống kê',
+		component: './ThongKe',
+		icon: 'BarChartOutlined',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
